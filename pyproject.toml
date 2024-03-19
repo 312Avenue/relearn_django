@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "learn-django"
+version = "0.1.0"
+description = "For learn django/poetry"
+authors = ["312Avenue <djumagaziev026@mail.ru>"]
+readme = "README.md"
+packages = [{include = "learn_django"}]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+django = "^5.0.3"
+djangorestframework = "^3.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
